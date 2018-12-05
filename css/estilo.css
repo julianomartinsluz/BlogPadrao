@@ -1,3 +1,9 @@
+ /******************** MENU******************/ 
+
+.interface{
+	height:100vh;
+	
+}
 *{
 	margin:0;
 	padding:0;
@@ -102,7 +108,8 @@ transition: all .4s;
   max-height:200px;
   
   }
-  
+  /************* INDEX *************/
+
   }
   #figurelogogrande {
     text-align: center;
@@ -125,7 +132,7 @@ transition: all .4s;
 .title-page{
 	display:inline-block;
 	padding:10px;
-	background:#778899 ;
+	background:white ;
 	
 }
 
@@ -226,6 +233,9 @@ transition: all .4s;
 
 }
 
+ /*********** FATEC *******/
+
+
 header{
 	margin: .5vw;
 	font-size: 0;
@@ -261,6 +271,9 @@ header div img{
 	 padding:0;
    }
  }
+ 
+ /**********   Contato *********/
+
  .container {
   width: 50%;
   margin: 0 auto;
@@ -329,15 +342,39 @@ header div img{
 .form-contact-button:hover {
   opacity: 1;
 }
+
+/**********   MATERIAS *********/
+
+#imgestao{
+	float:left;
+	padding-right:15px;
+}
+#tmaterias{
+	text-align:justify;
+	padding-right:15px;
+}
+#img{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+
+
+/****************** FOOTER *****************/
+
+
  
 footer {
 	background-color:#222;
 	text-align:center;
 	padding:10px;
-	margin-top:15px;
+	margin-top:17%;
 	color:white;
 	height:30%;
 	width: 100%;
     border-top: 4px solid gray;
 	border-bottom: 4px solid gray;
+	bottom:0px;
 }
+
